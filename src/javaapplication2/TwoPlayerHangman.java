@@ -53,6 +53,11 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
         A24 = new javax.swing.JButton();
         X = new javax.swing.JButton();
         W = new javax.swing.JButton();
+        HangmanPic = new javax.swing.JLabel();
+        EnterWord = new javax.swing.JLabel();
+        GameWordField = new javax.swing.JTextField();
+        ConfirmGameWord = new javax.swing.JButton();
+        GameWordLine = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -160,6 +165,33 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
         W.setText("W");
         W.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        HangmanPic.setIcon(new javax.swing.ImageIcon("C:\\Users\\dirief\\Desktop\\Guled\\2PHangmanPics\\start.png")); // NOI18N
+        HangmanPic.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(51, 153, 255), 3, true));
+        HangmanPic.setMinimumSize(new java.awt.Dimension(36, 44));
+
+        EnterWord.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        EnterWord.setForeground(new java.awt.Color(51, 153, 255));
+        EnterWord.setText("Player 1: Enter Word for Player 2 to guess!");
+
+        GameWordField.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(51, 153, 255), 3, true));
+        GameWordField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                GameWordFieldActionPerformed(evt);
+            }
+        });
+
+        ConfirmGameWord.setText("CONFIRM WORD");
+        ConfirmGameWord.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(51, 153, 255), 3, true));
+        ConfirmGameWord.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConfirmGameWordActionPerformed(evt);
+            }
+        });
+
+        GameWordLine.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        GameWordLine.setForeground(new java.awt.Color(51, 153, 255));
+        GameWordLine.setText("jLabel1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -220,13 +252,33 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(A23, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(R, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(127, Short.MAX_VALUE))
+                        .addComponent(R, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(HangmanPic, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(EnterWord, javax.swing.GroupLayout.DEFAULT_SIZE, 375, Short.MAX_VALUE)
+                            .addComponent(GameWordField)
+                            .addComponent(ConfirmGameWord)
+                            .addComponent(GameWordLine, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(361, Short.MAX_VALUE)
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(HangmanPic, javax.swing.GroupLayout.DEFAULT_SIZE, 416, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(EnterWord)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(GameWordField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(ConfirmGameWord)
+                        .addGap(32, 32, 32)
+                        .addComponent(GameWordLine)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(A, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(B, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -263,6 +315,28 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void GameWordFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GameWordFieldActionPerformed
+ 
+    }//GEN-LAST:event_GameWordFieldActionPerformed
+
+    private void ConfirmGameWordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConfirmGameWordActionPerformed
+        String GameWord = GameWordField.getText();
+        String EmptyGameWord =("");
+        GameWordField.setText("");
+        GameWordLine.setText(GameWord);
+        
+        //Takes game word and covers it in blanks
+        for (int i = 0; i < GameWord.length(); i++) {
+            if (GameWord.charAt(i) == (' ')) {
+                EmptyGameWord += " ";
+            } else {
+                EmptyGameWord += "_ ";
+            }
+
+        }
+       GameWordLine.setText(EmptyGameWord);
+    }//GEN-LAST:event_ConfirmGameWordActionPerformed
 
     /**
      * @param args the command line arguments
@@ -305,11 +379,16 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
     private javax.swing.JButton A24;
     private javax.swing.JButton B;
     private javax.swing.JButton C;
+    public javax.swing.JButton ConfirmGameWord;
     private javax.swing.JButton D;
     private javax.swing.JButton E;
+    private javax.swing.JLabel EnterWord;
     private javax.swing.JButton F;
     private javax.swing.JButton G;
+    private javax.swing.JTextField GameWordField;
+    private javax.swing.JLabel GameWordLine;
     private javax.swing.JButton H;
+    private javax.swing.JLabel HangmanPic;
     private javax.swing.JButton I;
     private javax.swing.JButton J;
     private javax.swing.JButton K;
