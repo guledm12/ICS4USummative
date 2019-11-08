@@ -329,7 +329,7 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
         //Takes game word and covers it in blanks
         for (int i = 0; i < GameWord.length(); i++) {
             if (GameWord.charAt(i) == (' ')) {
-                EmptyGameWord += " ";
+                EmptyGameWord += "  ";
             } else {
                 EmptyGameWord += "_ ";
             }
