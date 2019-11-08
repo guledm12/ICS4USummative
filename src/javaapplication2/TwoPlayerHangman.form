@@ -77,9 +77,9 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="X" min="-2" pref="39" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Y" min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="A24" min="-2" pref="39" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Z" min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="A23" min="-2" pref="39" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -122,8 +122,8 @@
                   <Component id="S" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="T" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="U" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                  <Component id="Z" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                  <Component id="Y" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="A23" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="A24" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="X" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="W" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="V" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
@@ -136,143 +136,287 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="A">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="A"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="B">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="B"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="C">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="C"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="D">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="D"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="E">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="E"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="F">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="F"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="G">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="G"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="H">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="H"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="J">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="J"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="S">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="S"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="K">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="K"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="T">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="T"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="I">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="I"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="L">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="L"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="M">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="M"/>
         <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
-          <Insets value="[1, 8, 1, 8]"/>
+          <Insets value="[1, 1, 1, 1]"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="N">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="N"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="O">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="O"/>
         <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
-          <Insets value="[1, 8, 1, 8]"/>
+          <Insets value="[1, 1, 1, 1]"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="P">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="P"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="U">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="U"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="V">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="V"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="Q">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Q"/>
         <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
-          <Insets value="[1, 8, 1, 8]"/>
+          <Insets value="[1, 1, 1, 1]"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="R">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="R"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Z">
+    <Component class="javax.swing.JButton" name="A23">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Z"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Y">
+    <Component class="javax.swing.JButton" name="A24">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Y"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="X">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="X"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[1, 1, 1, 1]"/>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="W">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="8" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="W"/>
         <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
-          <Insets value="[1, 8, 1, 8]"/>
+          <Insets value="[1, 1, 1, 1]"/>
         </Property>
       </Properties>
     </Component>

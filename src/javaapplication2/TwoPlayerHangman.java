@@ -49,68 +49,116 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
         V = new javax.swing.JButton();
         Q = new javax.swing.JButton();
         R = new javax.swing.JButton();
-        Z = new javax.swing.JButton();
-        Y = new javax.swing.JButton();
+        A23 = new javax.swing.JButton();
+        A24 = new javax.swing.JButton();
         X = new javax.swing.JButton();
         W = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        A.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         A.setText("A");
+        A.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        B.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         B.setText("B");
+        B.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        C.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         C.setText("C");
+        C.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        D.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         D.setText("D");
+        D.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        E.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         E.setText("E");
+        E.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        F.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         F.setText("F");
+        F.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        G.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         G.setText("G");
+        G.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        H.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         H.setText("H");
+        H.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        J.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         J.setText("J");
+        J.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        S.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         S.setText("S");
+        S.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        K.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         K.setText("K");
+        K.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        T.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         T.setText("T");
+        T.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        I.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         I.setText("I");
+        I.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        L.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         L.setText("L");
+        L.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        M.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         M.setText("M");
-        M.setMargin(new java.awt.Insets(1, 8, 1, 8));
+        M.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        N.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         N.setText("N");
+        N.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        O.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         O.setText("O");
-        O.setMargin(new java.awt.Insets(1, 8, 1, 8));
+        O.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        P.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         P.setText("P");
+        P.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        U.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         U.setText("U");
+        U.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        V.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         V.setText("V");
+        V.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        Q.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         Q.setText("Q");
-        Q.setMargin(new java.awt.Insets(1, 8, 1, 8));
+        Q.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        R.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         R.setText("R");
+        R.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
-        Z.setText("Z");
+        A23.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
+        A23.setText("Z");
+        A23.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
-        Y.setText("Y");
+        A24.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
+        A24.setText("Y");
+        A24.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        X.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         X.setText("X");
+        X.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
+        W.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         W.setText("W");
-        W.setMargin(new java.awt.Insets(1, 8, 1, 8));
+        W.setMargin(new java.awt.Insets(1, 1, 1, 1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -168,9 +216,9 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(X, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Y, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(A24, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Z, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(A23, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(R, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(127, Short.MAX_VALUE))
@@ -205,8 +253,8 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
                     .addComponent(S, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(T, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(U, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Z, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Y, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(A23, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(A24, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(X, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(W, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(V, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -253,6 +301,8 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton A;
+    private javax.swing.JButton A23;
+    private javax.swing.JButton A24;
     private javax.swing.JButton B;
     private javax.swing.JButton C;
     private javax.swing.JButton D;
@@ -276,7 +326,5 @@ public class TwoPlayerHangman extends javax.swing.JFrame {
     private javax.swing.JButton V;
     private javax.swing.JButton W;
     private javax.swing.JButton X;
-    private javax.swing.JButton Y;
-    private javax.swing.JButton Z;
     // End of variables declaration//GEN-END:variables
 }
